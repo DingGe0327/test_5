@@ -21,6 +21,15 @@
 #include <string.h>
 int main()
 {
+	//printf("c:test\test.c\n");
+	//printf("c:test\\test.c\n");
+	//printf("%c\n", '\'');
+	//printf("%s\n", "\"");
+	//printf("\a");//警告字符，会让电脑响一下
+
+	printf("%s\n", "\101");
+	printf("%c\n", '\101');
+	
 	return 0;
 }
 
