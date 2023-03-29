@@ -18,14 +18,12 @@
 //转义字符：改变了原来字符的意思
 
 #include <stdio.h>
+#include <string.h>
 int main()
 {
-	printf("c:test\test.c\n");
-	printf("c:test\\test.c\n");
-	printf("%c\n",'\'');
-	printf("%s\n","\"");
 	return 0;
 }
+
 
 
 
